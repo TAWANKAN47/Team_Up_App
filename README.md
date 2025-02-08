@@ -15,7 +15,7 @@ https://github.com/Jerry4709/server
 ## โครงสร้างโครงการ
 
 ```
-CodeAn-2/
+Team_Up_App/
 │-- auth-system/               # ระบบยืนยันตัวตน (Node.js)
 │   │-- config/               # ไฟล์คอนฟิกของระบบ
 │   │   │-- config.js         # กำหนดค่าพื้นฐานของระบบ
