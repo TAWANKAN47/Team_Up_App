@@ -1,0 +1,47 @@
+name: team_up
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.7+4
+  shared_preferences: ^2.1.0
+  flutter_map: ^4.0.0
+  latlong2: ^0.8.1
+  geolocator: ^9.0.2
+  web_socket_channel: ^2.1.0
+  provider: ^6.0.0
+  cached_network_image: ^3.2.0
+  intl: ^0.18.1
+  http: ^0.13.5
+  url_launcher: ^6.1.9
+  cupertino_icons: ^1.0.8
+  icons_plus: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/Logo.png"
+  adaptive_icon_foreground: "assets/images/Logo.png"
+  adaptive_icon_background: "#FFFFFF"
+  min_sdk_android: 21
+
+flutter_launcher_name:
+  name: "Team Up"

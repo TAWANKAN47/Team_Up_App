@@ -1,0 +1,429 @@
+-- Merging decision tree log ---
+application
+INJECTED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\main\AndroidManifest.xml:7:5-38:19
+INJECTED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\debug\AndroidManifest.xml
+MERGED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-32:19
+MERGED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-32:19
+MERGED from [:geolocator_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.1\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:geolocator_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.1\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\heedum\.gradle\caches\transforms-3\5cc48f42317f08208a166bff15319004\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\heedum\.gradle\caches\transforms-3\5cc48f42317f08208a166bff15319004\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\heedum\.gradle\caches\transforms-3\0131e9f35ef16cdf394a2772978668cb\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\heedum\.gradle\caches\transforms-3\0131e9f35ef16cdf394a2772978668cb\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\heedum\.gradle\caches\transforms-3\08fca70c121d995077686bf9c2206c3c\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\heedum\.gradle\caches\transforms-3\08fca70c121d995077686bf9c2206c3c\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\heedum\.gradle\caches\transforms-3\41b63d1f78026549e55a7ef5ec392b55\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\heedum\.gradle\caches\transforms-3\41b63d1f78026549e55a7ef5ec392b55\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.window:window:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\78483683eced6f22e9cd81ed8076deec\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\78483683eced6f22e9cd81ed8076deec\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\0ae8d8ca47fd83b87ffed33ba09ce610\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\0ae8d8ca47fd83b87ffed33ba09ce610\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\8a4b7cd485b1a7dba8e78c77cede4e9d\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\8a4b7cd485b1a7dba8e78c77cede4e9d\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\27bcb823f82713a0976753bbc06e2cf7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\27bcb823f82713a0976753bbc06e2cf7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\e4e53d5630d1fbd6c83acf3f7fe36de6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\e4e53d5630d1fbd6c83acf3f7fe36de6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\debug\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\0ae8d8ca47fd83b87ffed33ba09ce610\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\main\AndroidManifest.xml
+manifest
+ADDED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\main\AndroidManifest.xml:1:1-50:12
+MERGED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\main\AndroidManifest.xml:1:1-50:12
+INJECTED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+MERGED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-34:12
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.24\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:geolocator_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.1\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:path_provider_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.15\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.2\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite_android-2.4.0\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\heedum\.gradle\caches\transforms-3\5cc48f42317f08208a166bff15319004\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\heedum\.gradle\caches\transforms-3\0131e9f35ef16cdf394a2772978668cb\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\heedum\.gradle\caches\transforms-3\08fca70c121d995077686bf9c2206c3c\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\heedum\.gradle\caches\transforms-3\41b63d1f78026549e55a7ef5ec392b55\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\heedum\.gradle\caches\transforms-3\73318a1f8c11a8ce04aa0bf239817c6e\transformed\preference-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\heedum\.gradle\caches\transforms-3\b9f03d9280bd53276ec0e95816fcd9cc\transformed\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] C:\Users\heedum\.gradle\caches\transforms-3\af0f2a683e4b3354e5017084db769e04\transformed\jetified-fragment-ktx-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\heedum\.gradle\caches\transforms-3\d831ddbcd6beb5b331049e0c698a1606\transformed\fragment-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\heedum\.gradle\caches\transforms-3\1fe0c7480a2961e5f1af1810fa409ee8\transformed\jetified-activity-ktx-1.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\heedum\.gradle\caches\transforms-3\670b4bd6a39fd01071ee38cf87adf86b\transformed\jetified-activity-1.9.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\124761b797f3c10f43f2fa5e373e0f48\transformed\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\9fe5cf1bda02f8b521db00e3b43d8888\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\aa1fdcd7da98eefe11a1565c4483904e\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\78483683eced6f22e9cd81ed8076deec\transformed\jetified-window-1.2.0\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\223a1628cdefaaff49008ffb4d4d49a4\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\074c90a11e2436c8562dc67bb2ef8390\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\8257fe4aea004cb1daa82eee0ae97299\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\ce4772fd26c0ebded4e01c9d6b3db26e\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\837a8f4a5cb510a5e44852200c21df12\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\a4f8884bdae0573e42277466b0a6b7d2\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\bc596fa2b34d0fd09fa11976e0c721ff\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\5ad73fa5d5f8cda8200f6ae75d2a10b7\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\bcab57da82dd22e8d0a5f9ae2f355776\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\f9f6cb3b3c626bf1a2572dca67dcfebd\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\d034bcde5732cf087a39146d8284fe36\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\b2e6003e3c098e9bc2a758ed9157e345\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\heedum\.gradle\caches\transforms-3\e617c96a41f173f1bee31db464af8988\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\0b492ecfd9015fe58eb12fe0bc359ef5\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\2d1f57d4ba557d992cd21f8765bd4c26\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\heedum\.gradle\caches\transforms-3\f387e3ee2201849dd159a6e7e53bf09f\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\heedum\.gradle\caches\transforms-3\0ab0e4b70ac34b7705f17e350f72aad1\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\heedum\.gradle\caches\transforms-3\53fb7bc43e7240fc24939e345d029382\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\heedum\.gradle\caches\transforms-3\ab99107a43c040e49b81d2576d22d13b\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\9e7eb309b485d6d87e4f816ba07794da\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\b2c2df7cc2b55833093ab5e9b5281672\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\0ae8d8ca47fd83b87ffed33ba09ce610\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\b9e80184bf0ffe4a6930cdc997cc9b24\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\8a4b7cd485b1a7dba8e78c77cede4e9d\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\heedum\.gradle\caches\transforms-3\8c5a16205cb0b71d91eeeb34e6bc8441\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\heedum\.gradle\caches\transforms-3\5e147f8a4c0f5ff04788221eb559eb0c\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\33a33d9ffcc861b682a35974f6fdf98c\transformed\jetified-datastore-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\2db55fd379032930ce4281bfda62ab2b\transformed\jetified-datastore-preferences-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-android:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\2dbfc6915d98177806e039a2b27c07aa\transformed\jetified-datastore-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\heedum\.gradle\caches\transforms-3\8c50d72fe16549ab741fcdba9019d883\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\27bcb823f82713a0976753bbc06e2cf7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\95265b4b1ae6f95a532c0890f12174c3\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\ab5c157c1f90279459b21d0516f9ce91\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\e4e53d5630d1fbd6c83acf3f7fe36de6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\heedum\.gradle\caches\transforms-3\22b387a551560b4e5a0fd42bea99ac17\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\84396cf10541abe542cebe44ea32bc3a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\1a37d4359fa0b67ee3d9c9d6cab3b745\transformed\jetified-core-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\0abc732531a8062db7b5edf67bf308ea\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\c429ba11c141ef18df22205deee9f913\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\3b10a4295348add356d8a358896303f0\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\heedum\.gradle\caches\transforms-3\11a3de5086a81e50576f1230314f33b6\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\heedum\.gradle\caches\transforms-3\d9f2375be9516ad8297dd7180fda73d2\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\main\AndroidManifest.xml:2:5-79
+	android:name
+		ADDED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\main\AndroidManifest.xml:2:22-77
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\main\AndroidManifest.xml:3:5-64
+	android:name
+		ADDED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\main\AndroidManifest.xml:3:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\main\AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\main\AndroidManifest.xml:4:22-78
+queries
+ADDED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\main\AndroidManifest.xml:44:5-49:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\main\AndroidManifest.xml:45:9-48:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\main\AndroidManifest.xml:46:13-72
+	android:name
+		ADDED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\main\AndroidManifest.xml:46:21-70
+data
+ADDED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\main\AndroidManifest.xml:47:13-50
+	android:mimeType
+		ADDED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\main\AndroidManifest.xml:47:19-48
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\debug\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\debug\AndroidManifest.xml:6:22-64
+uses-sdk
+INJECTED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\debug\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\debug\AndroidManifest.xml
+MERGED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.24\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.24\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:geolocator_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.1\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:geolocator_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.1\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.15\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.15\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.2\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.2\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite_android-2.4.0\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite_android-2.4.0\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\heedum\.gradle\caches\transforms-3\5cc48f42317f08208a166bff15319004\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\heedum\.gradle\caches\transforms-3\5cc48f42317f08208a166bff15319004\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\heedum\.gradle\caches\transforms-3\0131e9f35ef16cdf394a2772978668cb\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\heedum\.gradle\caches\transforms-3\0131e9f35ef16cdf394a2772978668cb\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\heedum\.gradle\caches\transforms-3\08fca70c121d995077686bf9c2206c3c\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\heedum\.gradle\caches\transforms-3\08fca70c121d995077686bf9c2206c3c\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\heedum\.gradle\caches\transforms-3\41b63d1f78026549e55a7ef5ec392b55\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\heedum\.gradle\caches\transforms-3\41b63d1f78026549e55a7ef5ec392b55\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\heedum\.gradle\caches\transforms-3\73318a1f8c11a8ce04aa0bf239817c6e\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\heedum\.gradle\caches\transforms-3\73318a1f8c11a8ce04aa0bf239817c6e\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\heedum\.gradle\caches\transforms-3\b9f03d9280bd53276ec0e95816fcd9cc\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\heedum\.gradle\caches\transforms-3\b9f03d9280bd53276ec0e95816fcd9cc\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] C:\Users\heedum\.gradle\caches\transforms-3\af0f2a683e4b3354e5017084db769e04\transformed\jetified-fragment-ktx-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.7.1] C:\Users\heedum\.gradle\caches\transforms-3\af0f2a683e4b3354e5017084db769e04\transformed\jetified-fragment-ktx-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\heedum\.gradle\caches\transforms-3\d831ddbcd6beb5b331049e0c698a1606\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\heedum\.gradle\caches\transforms-3\d831ddbcd6beb5b331049e0c698a1606\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\heedum\.gradle\caches\transforms-3\1fe0c7480a2961e5f1af1810fa409ee8\transformed\jetified-activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\heedum\.gradle\caches\transforms-3\1fe0c7480a2961e5f1af1810fa409ee8\transformed\jetified-activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\heedum\.gradle\caches\transforms-3\670b4bd6a39fd01071ee38cf87adf86b\transformed\jetified-activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\heedum\.gradle\caches\transforms-3\670b4bd6a39fd01071ee38cf87adf86b\transformed\jetified-activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\124761b797f3c10f43f2fa5e373e0f48\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\124761b797f3c10f43f2fa5e373e0f48\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\9fe5cf1bda02f8b521db00e3b43d8888\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\9fe5cf1bda02f8b521db00e3b43d8888\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\aa1fdcd7da98eefe11a1565c4483904e\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\aa1fdcd7da98eefe11a1565c4483904e\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\78483683eced6f22e9cd81ed8076deec\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\78483683eced6f22e9cd81ed8076deec\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\223a1628cdefaaff49008ffb4d4d49a4\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\223a1628cdefaaff49008ffb4d4d49a4\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:19:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\074c90a11e2436c8562dc67bb2ef8390\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\074c90a11e2436c8562dc67bb2ef8390\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\8257fe4aea004cb1daa82eee0ae97299\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\8257fe4aea004cb1daa82eee0ae97299\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\ce4772fd26c0ebded4e01c9d6b3db26e\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\ce4772fd26c0ebded4e01c9d6b3db26e\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\837a8f4a5cb510a5e44852200c21df12\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\837a8f4a5cb510a5e44852200c21df12\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\a4f8884bdae0573e42277466b0a6b7d2\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\a4f8884bdae0573e42277466b0a6b7d2\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\bc596fa2b34d0fd09fa11976e0c721ff\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\bc596fa2b34d0fd09fa11976e0c721ff\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\5ad73fa5d5f8cda8200f6ae75d2a10b7\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\5ad73fa5d5f8cda8200f6ae75d2a10b7\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\bcab57da82dd22e8d0a5f9ae2f355776\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\bcab57da82dd22e8d0a5f9ae2f355776\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\f9f6cb3b3c626bf1a2572dca67dcfebd\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\f9f6cb3b3c626bf1a2572dca67dcfebd\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\d034bcde5732cf087a39146d8284fe36\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\d034bcde5732cf087a39146d8284fe36\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\b2e6003e3c098e9bc2a758ed9157e345\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\b2e6003e3c098e9bc2a758ed9157e345\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\heedum\.gradle\caches\transforms-3\e617c96a41f173f1bee31db464af8988\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\heedum\.gradle\caches\transforms-3\e617c96a41f173f1bee31db464af8988\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\0b492ecfd9015fe58eb12fe0bc359ef5\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\0b492ecfd9015fe58eb12fe0bc359ef5\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\2d1f57d4ba557d992cd21f8765bd4c26\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\2d1f57d4ba557d992cd21f8765bd4c26\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\heedum\.gradle\caches\transforms-3\f387e3ee2201849dd159a6e7e53bf09f\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\heedum\.gradle\caches\transforms-3\f387e3ee2201849dd159a6e7e53bf09f\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\heedum\.gradle\caches\transforms-3\0ab0e4b70ac34b7705f17e350f72aad1\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\heedum\.gradle\caches\transforms-3\0ab0e4b70ac34b7705f17e350f72aad1\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\heedum\.gradle\caches\transforms-3\53fb7bc43e7240fc24939e345d029382\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\heedum\.gradle\caches\transforms-3\53fb7bc43e7240fc24939e345d029382\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\heedum\.gradle\caches\transforms-3\ab99107a43c040e49b81d2576d22d13b\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\heedum\.gradle\caches\transforms-3\ab99107a43c040e49b81d2576d22d13b\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\9e7eb309b485d6d87e4f816ba07794da\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\9e7eb309b485d6d87e4f816ba07794da\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\b2c2df7cc2b55833093ab5e9b5281672\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\b2c2df7cc2b55833093ab5e9b5281672\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\0ae8d8ca47fd83b87ffed33ba09ce610\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\0ae8d8ca47fd83b87ffed33ba09ce610\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\b9e80184bf0ffe4a6930cdc997cc9b24\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\b9e80184bf0ffe4a6930cdc997cc9b24\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\8a4b7cd485b1a7dba8e78c77cede4e9d\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\8a4b7cd485b1a7dba8e78c77cede4e9d\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\heedum\.gradle\caches\transforms-3\8c5a16205cb0b71d91eeeb34e6bc8441\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\heedum\.gradle\caches\transforms-3\8c5a16205cb0b71d91eeeb34e6bc8441\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\heedum\.gradle\caches\transforms-3\5e147f8a4c0f5ff04788221eb559eb0c\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\heedum\.gradle\caches\transforms-3\5e147f8a4c0f5ff04788221eb559eb0c\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\33a33d9ffcc861b682a35974f6fdf98c\transformed\jetified-datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\33a33d9ffcc861b682a35974f6fdf98c\transformed\jetified-datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\2db55fd379032930ce4281bfda62ab2b\transformed\jetified-datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\2db55fd379032930ce4281bfda62ab2b\transformed\jetified-datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\2dbfc6915d98177806e039a2b27c07aa\transformed\jetified-datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\2dbfc6915d98177806e039a2b27c07aa\transformed\jetified-datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\heedum\.gradle\caches\transforms-3\8c50d72fe16549ab741fcdba9019d883\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\heedum\.gradle\caches\transforms-3\8c50d72fe16549ab741fcdba9019d883\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\27bcb823f82713a0976753bbc06e2cf7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\27bcb823f82713a0976753bbc06e2cf7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\95265b4b1ae6f95a532c0890f12174c3\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\95265b4b1ae6f95a532c0890f12174c3\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\ab5c157c1f90279459b21d0516f9ce91\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\ab5c157c1f90279459b21d0516f9ce91\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\e4e53d5630d1fbd6c83acf3f7fe36de6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\e4e53d5630d1fbd6c83acf3f7fe36de6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\heedum\.gradle\caches\transforms-3\22b387a551560b4e5a0fd42bea99ac17\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\heedum\.gradle\caches\transforms-3\22b387a551560b4e5a0fd42bea99ac17\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\84396cf10541abe542cebe44ea32bc3a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\84396cf10541abe542cebe44ea32bc3a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\1a37d4359fa0b67ee3d9c9d6cab3b745\transformed\jetified-core-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\1a37d4359fa0b67ee3d9c9d6cab3b745\transformed\jetified-core-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\0abc732531a8062db7b5edf67bf308ea\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\0abc732531a8062db7b5edf67bf308ea\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\c429ba11c141ef18df22205deee9f913\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\c429ba11c141ef18df22205deee9f913\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\3b10a4295348add356d8a358896303f0\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\heedum\.gradle\caches\transforms-3\3b10a4295348add356d8a358896303f0\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\heedum\.gradle\caches\transforms-3\11a3de5086a81e50576f1230314f33b6\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\heedum\.gradle\caches\transforms-3\11a3de5086a81e50576f1230314f33b6\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\heedum\.gradle\caches\transforms-3\d9f2375be9516ad8297dd7180fda73d2\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\heedum\.gradle\caches\transforms-3\d9f2375be9516ad8297dd7180fda73d2\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:5:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\heedum\Downloads\Mobile_appGaRhi-main\Mobile_appGaRhi-main\CodeAn-2\CodeAn-2\NewCodeMba-main\android\app\src\debug\AndroidManifest.xml
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-17:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-47
+	android:authorities
+		ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+	android:exported
+		ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-16:75
+	android:resource
+		ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-72
+	android:name
+		ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-67
+service#com.google.android.gms.metadata.ModuleDependencies
+ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-31:19
+	android:enabled
+		ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-36
+	android:exported
+		ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+	tools:ignore
+		ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-40
+	android:name
+		ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-78
+intent-filter#action:name:com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-26:29
+action#com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-94
+	android:name
+		ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-91
+meta-data#photopicker_activity:0:required
+ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-30:36
+	android:value
+		ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-33
+	android:name
+		ADDED from [:image_picker_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+20\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-63
+service#com.baseflow.geolocator.GeolocatorLocationService
+ADDED from [:geolocator_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.1\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:56
+	android:enabled
+		ADDED from [:geolocator_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.1\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-35
+	android:exported
+		ADDED from [:geolocator_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.1\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-37
+	android:foregroundServiceType
+		ADDED from [:geolocator_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.1\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-53
+	android:name
+		ADDED from [:geolocator_android] C:\Users\heedum\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.1\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\heedum\.gradle\caches\transforms-3\0131e9f35ef16cdf394a2772978668cb\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\heedum\.gradle\caches\transforms-3\0131e9f35ef16cdf394a2772978668cb\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\heedum\.gradle\caches\transforms-3\0131e9f35ef16cdf394a2772978668cb\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\heedum\.gradle\caches\transforms-3\0131e9f35ef16cdf394a2772978668cb\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\heedum\.gradle\caches\transforms-3\41b63d1f78026549e55a7ef5ec392b55\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\heedum\.gradle\caches\transforms-3\41b63d1f78026549e55a7ef5ec392b55\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\heedum\.gradle\caches\transforms-3\41b63d1f78026549e55a7ef5ec392b55\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\78483683eced6f22e9cd81ed8076deec\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\78483683eced6f22e9cd81ed8076deec\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\78483683eced6f22e9cd81ed8076deec\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\78483683eced6f22e9cd81ed8076deec\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\78483683eced6f22e9cd81ed8076deec\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] C:\Users\heedum\.gradle\caches\transforms-3\78483683eced6f22e9cd81ed8076deec\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\0ae8d8ca47fd83b87ffed33ba09ce610\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\0ae8d8ca47fd83b87ffed33ba09ce610\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\0ae8d8ca47fd83b87ffed33ba09ce610\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.example.team_up.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\0ae8d8ca47fd83b87ffed33ba09ce610\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\0ae8d8ca47fd83b87ffed33ba09ce610\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\0ae8d8ca47fd83b87ffed33ba09ce610\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\0ae8d8ca47fd83b87ffed33ba09ce610\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\0ae8d8ca47fd83b87ffed33ba09ce610\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.example.team_up.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\0ae8d8ca47fd83b87ffed33ba09ce610\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\heedum\.gradle\caches\transforms-3\0ae8d8ca47fd83b87ffed33ba09ce610\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\8a4b7cd485b1a7dba8e78c77cede4e9d\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\27bcb823f82713a0976753bbc06e2cf7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\heedum\.gradle\caches\transforms-3\27bcb823f82713a0976753bbc06e2cf7\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\8a4b7cd485b1a7dba8e78c77cede4e9d\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\8a4b7cd485b1a7dba8e78c77cede4e9d\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\8a4b7cd485b1a7dba8e78c77cede4e9d\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\8a4b7cd485b1a7dba8e78c77cede4e9d\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\8a4b7cd485b1a7dba8e78c77cede4e9d\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\8a4b7cd485b1a7dba8e78c77cede4e9d\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\heedum\.gradle\caches\transforms-3\8a4b7cd485b1a7dba8e78c77cede4e9d\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\heedum\.gradle\caches\transforms-3\6cd6098f4dceb8f86fea159ed2875c80\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
